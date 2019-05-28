@@ -23,6 +23,12 @@
         "string"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "author": {
       "$ref": "user"
     },

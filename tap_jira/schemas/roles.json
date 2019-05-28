@@ -25,6 +25,12 @@
         "integer"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "description": {
       "type": [
         "null",

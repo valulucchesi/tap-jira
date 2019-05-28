@@ -30,6 +30,12 @@
         "string"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "renderedFields": {
       "type": [
         "null",

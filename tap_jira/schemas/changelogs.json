@@ -14,6 +14,12 @@
         "string"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "author": {
       "title": "User",
       "type": [

@@ -24,6 +24,12 @@
         "string"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "created": {
       "type": [
         "null",

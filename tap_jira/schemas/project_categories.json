@@ -18,6 +18,12 @@
         "string"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "name": {
       "type": [
         "null",

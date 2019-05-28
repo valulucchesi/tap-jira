@@ -3,7 +3,7 @@ import pytz
 from tap_jira.context import Context
 from unittest.mock import Mock, MagicMock
 from tap_jira.streams import Issues
-from tap_jira.http import Paginator
+from tap_jira.httpJira import Paginator
 from datetime import datetime
 
 class TestLocalizedRequests(unittest.TestCase):

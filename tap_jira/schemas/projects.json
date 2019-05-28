@@ -24,6 +24,12 @@
       ],
       "format": "uri"
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "id": {
       "type": [
         "null",

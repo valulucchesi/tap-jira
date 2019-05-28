@@ -17,6 +17,12 @@
         "string"
       ]
     },
+    "fields_json": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "descriptionI18nKey": {
       "type": [
         "null",
