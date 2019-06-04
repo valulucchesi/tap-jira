@@ -27,7 +27,7 @@
     "fields_json": {
       "type": [
         "null",
-        "string"
+        "object"
       ]
     },
     "created": {

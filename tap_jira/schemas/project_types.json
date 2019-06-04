@@ -20,7 +20,7 @@
     "fields_json": {
       "type": [
         "null",
-        "string"
+        "object"
       ]
     },
     "descriptionI18nKey": {
