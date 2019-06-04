@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e17b8110-2027-4a90-9704-6087b5d16d82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tap-jira.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/httpJira.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/changelogs.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/changelogs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/issue_comments.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/issue_comments.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/issue_transitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/issue_transitions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/issues.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/issues.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/project_categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/project_categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/project_types.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/project_types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/resolutions.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/resolutions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/roles.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/roles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/versions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tap_jira/schemas/worklogs.json" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/schemas/worklogs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tap_jira/streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/tap_jira/streams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_streams.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.cfg">
           <provider selected="true" editor-type-id="text-editor" />
@@ -50,13 +33,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tap_jira/streams.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+            <state relative-caret-position="317">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tap_jira/schemas/issues.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -76,6 +64,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>write</find>
+      <find>None</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +88,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,6 +101,12 @@
               <item name="tap-jira" type="b2602c69:ProjectViewProjectNode" />
               <item name="tap-jira" type="462c0819:PsiDirectoryNode" />
               <item name="tap_jira" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tap-jira" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tap-jira" type="462c0819:PsiDirectoryNode" />
+              <item name="tap_jira" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tap-jira" type="b2602c69:ProjectViewProjectNode" />
@@ -148,13 +143,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tap_jira" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tap_jira/__init__.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="-c $USER_HOME$/analytics/analyticsDocker/dockerJira/config-jira.json -p $USER_HOME$/analytics/analyticsDocker/dockerJira/catalog.json" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -205,33 +200,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="966" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32951945" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -245,6 +241,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tap_jira/schemas/issues.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tap_jira/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -257,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tap_jira/streams.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+        <state relative-caret-position="317">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

@@ -4,7 +4,7 @@ import singer
 from singer import metrics, utils, metadata, Transformer
 from .httpJira import Paginator
 from .context import Context
-
+import json
 
 def raise_if_bookmark_cannot_advance(worklogs):
     # Worklogs can only be queried with a `since` timestamp and
@@ -109,7 +109,7 @@ class Stream():
             with Transformer() as transformer:
                 rec = transformer.transform(rec, stream.schema.to_dict(), stream_metadata)
                 valores = rec.copy()
-            rec["fields_json"] = valores
+            rec["fields_json"] = json.dumps(valores)
             singer.write_record(self.tap_stream_id, rec, time_extracted=extraction_time)
 
        # with metrics.record_counter(self.tap_stream_id) as counter:
