@@ -109,7 +109,10 @@ class Stream():
             with Transformer() as transformer:
                 rec = transformer.transform(rec, stream.schema.to_dict(), stream_metadata)
                 valores = rec.copy()
-            rec["fields_json"] = json.dumps(valores)
+            if self.tap_stream_id == 'issues':
+                rec["fields_json"] = json.dumps(valores['fields'])
+            else:
+                rec["fields_json"] = json.dumps(valores)
             singer.write_record(self.tap_stream_id, rec, time_extracted=extraction_time)
 
        # with metrics.record_counter(self.tap_stream_id) as counter:
