@@ -1,0 +1,12 @@
+[
+  "tests/test_conexion.py::TestTapJira::test_discover",
+  "tests/test_conexion.py::TestTapJira::test_generate_metadata",
+  "tests/test_conexion.py::TestTapJira::test_load_schemas",
+  "tests/test_conexion.py::TestTapJira::test_output_schema",
+  "tests/test_conexion.py::TestTapJira::test_sync",
+  "tests/test_conexion.py::TestTapJira::test_validate_dependencies",
+  "tests/test_streams.py::TestLocalizedRequests::test_issues_local_timezone_in_request",
+  "tests/test_streams.py::TestLocalizedRequests::test_project_types",
+  "tests/test_streams.py::TestLocalizedRequests::test_projects",
+  "tests/test_streams.py::TestLocalizedRequests::test_users"
+]

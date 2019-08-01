@@ -1,0 +1,1 @@
+['projects', 'versions', 'project_types', 'project_categories', 'resolutions', 'users', 'issues', 'issue_comments', 'changelogs', 'issue_transitions', 'worklogs']
